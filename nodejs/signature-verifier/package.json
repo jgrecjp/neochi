@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "svStart": "nodemon server.js"
+  },
+  "name": "signature-verifier",
+  "version": "1.0.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ethers": "^5.7.2",
+    "express": "^4.21.2",
+    "forever": "^4.0.3",
+    "nodemon": "^3.1.10"
+  }
+}
