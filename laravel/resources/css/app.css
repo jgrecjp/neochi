@@ -1,0 +1,15 @@
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* または、基本的なCSSの場合 */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
