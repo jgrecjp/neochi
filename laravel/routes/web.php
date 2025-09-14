@@ -9,6 +9,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/terms', function () {
+    return view('terms');
+});
+
+Route::get('/privacy', function () {
+    return view('privacy');
+});
+
 Auth::routes();
 
 // 認証ルート
@@ -26,5 +34,8 @@ Route::get('auth/google', [GoogleLoginController::class, 'redirectToGoogle'])
 
 Route::get('auth/google/callback', [GoogleLoginController::class, 'handleGoogleCallback'])
 	    ->name('auth.google.callbck');
+
+
+
 
 
